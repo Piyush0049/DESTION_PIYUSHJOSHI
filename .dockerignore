@@ -1,0 +1,30 @@
+# Node.js dependencies (will be installed inside the container)
+node_modules
+
+# Local development build output
+build
+dist
+
+# Logs and temporary files
+logs
+*.log
+tmp
+temp
+
+# Git files
+.git
+.gitignore
+
+# Environment files (to avoid including sensitive information)
+.env
+.env.local
+.env.*.local
+
+# Editor-specific files
+.vscode
+.idea
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
